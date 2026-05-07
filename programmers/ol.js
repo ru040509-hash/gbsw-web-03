@@ -13,7 +13,7 @@ function solution(arr, delete_list) {
             }
         }
 
-        // arr.includes()
+        // (!delete_list.includes(arr[i])) -> i 번째 원소가 포함되면 ture, i 번째 원소가 포함되면 faise
 
         if (flag) {
             //i번째 원소는 살아남았기 때문에, 결과 배열에 추가한다.
